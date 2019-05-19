@@ -1,5 +1,4 @@
-(module SW_SPST_4.4x1.8x3.8mm_plastic-pin (layer F.Cu) (tedit 5CC50D0D)
-  (descr "Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf")
+(module SW_SPST_4.4x1.8x3.8mm_plastic-pin (layer F.Cu) (tedit 5CE16253)
   (attr smd)
   (fp_text reference REF** (at 0 -2.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -49,9 +48,4 @@
       (gr_poly (pts
          (xy -0.55 -0.35) (xy -0.55 -0.95) (xy 0.05 -0.95) (xy 0.05 -0.35)) (width 0))
     ))
-  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_EVQP7A.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
